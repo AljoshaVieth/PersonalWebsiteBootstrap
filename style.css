@@ -1,0 +1,48 @@
+body {
+  background-image: url("img/background.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a:link {
+  color: #fb8c00;
+  text-decoration: none;
+}
+a:visited {
+  color: #fb8c00;
+}
+a:hover {
+  color: #ffb85d;
+  text-decoration: none;
+}
+a:active {
+  color: #fb8c00;
+}
+
+html {
+    font-size: 14px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+
+  .container {
+    max-width: 960px;
+  }
+  
+  .header {
+    max-width: 700px;
+  }
+  
+  .card-deck .card {
+    min-width: 220px;
+  }
+  .card { background-color: rgba(245, 245, 245, 0.9); }
+  .card-header, .card-footer { opacity: 1}
